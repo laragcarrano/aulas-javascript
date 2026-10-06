@@ -1,5 +1,4 @@
 function mensagemBoasVindas(){
-    return "Bem-vindo ao Sistema!";
-}
-
-console.log(mensagemBoasVindas());
+    console.log("Bem vindo ao Sistema!");
+ }
+ mensagemBoasVindas();
