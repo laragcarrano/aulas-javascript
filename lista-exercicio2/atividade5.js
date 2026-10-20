@@ -12,9 +12,10 @@ const elementosFake=[
     {
     tagName:'BUTTON',
     style:{color:'white',display:'inline-block'},
+    classList:['btn','btn-primary']
     }
     ];
 
     elementosFake.forEach(elemento=>{
-        console.log(`Tag:${elemento.tagName} | Quantidade de classes:${elemento.classList.lenght} | Classes:${elemento.classList.join(',')}`);
+        console.log(`Tag:${elemento.tagName} | Quantidade de classes:${elemento.classList.length} | Classes:${elemento.classList.join(',')}`);
     });
