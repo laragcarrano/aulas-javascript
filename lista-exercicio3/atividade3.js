@@ -12,7 +12,7 @@ const elementosFake=[
     ];
 
     elementosFake.forEach(elemento=>{
-        if (elemento.classList=includes('pending')){
+        if (elemento.classList.includes('pending')){
             elemento.classList=elemento.classList.filter(classe=>classe!=='pending');
             elemento.classList.push('done');
             elemento.style.color='green';
